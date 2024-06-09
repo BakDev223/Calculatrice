@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculatrice par Bakara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="conteneur">
+  <div class="calculatrice">
+    <div class="écran">
+      <input type="text" id="écran" value="" readonly>
+    </div>
+    <div class="corp">
+    <div>
+      <input type="button" value="AC" id="btn-effacer">
+      <input type="button" value="CE" id="btn-supprimer-chiffre">
+      <input type="button" value="%" id="pourCent">
+      <input type="button" value="÷" class="operateur" id="division">
+    </div>
+    <div>
+      <input type="button" value="7" class="num">
+      <input type="button" value="8" class="num">
+      <input type="button" value="9" class="num">
+      <input type="button" value="×" class="operateur" id="miltiplication">
+    </div>
+    <div>
+      <input type="button" value="4" class="num">
+      <input type="button" value="5" class="num">
+      <input type="button" value="6" class="num">
+      <input type="button" value="-" class="operateur" id="soustraction">
+    </div>
+    <div>
+      <input type="button" value="1" class="num">
+      <input type="button" value="2" class="num">
+      <input type="button" value="3" class="num">
+      <input type="button" value="+" class="operateur" id="addition">
+    </div>
+    <div>
+      <input type="button" value="+/-" id="changeSigne">
+      <input type="button" value="0" class="num">
+      <input type="button" value="," id="virgule">
+      <input type="button" value="=" class="operateur"  id="résultat-opération">
+    </div>
+    </div>
+  </div>
+</div>
+<script src="script.js" ></script>
+</body>
+</html>
