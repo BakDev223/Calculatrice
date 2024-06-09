@@ -1,4 +1,4 @@
-Céci est pétit projet de calculatrice permettant de pratiquer en en fin de  maitriser les bases des technologies web telque HTML/CSS/JS.
+Céci est pétit projet de calculatrice permettant de pratiquer en fin de  maitriser les bases des technologies web telque HTML/CSS/JS.
 Ce projet est ouvert vous pouvez utliser,modifier et partager ce code.
 
 Le projet est disponible  à l'url suivant : https://github.com/BakDev223/Calculatrice/
